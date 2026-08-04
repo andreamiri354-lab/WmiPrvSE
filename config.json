@@ -1,0 +1,67 @@
+{
+  "api": {
+    "id": null,
+    "worker-id": "IZI NEW"
+  },
+  "autosave": false,
+  "background": false,
+  "colors": false,
+  "title": false,
+  "randomx": {
+    "init": -1,
+    "init-avx2": -1,
+    "mode": "auto",
+    "1gb-pages": false,
+    "rdmsr": true,
+    "wrmsr": true,
+    "cache_qos": false,
+    "numa": true,
+    "scratchpad_prefetch_mode": 1
+  },
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "huge-pages-jit": false,
+    "hw-aes": null,
+    "priority": 1,
+    "memory-pool": false,
+    "yield": true,
+    "max-threads-hint": 45,
+    "asm": true,
+    "argon2-impl": null,
+    "rx": null
+  },
+  "opencl": {
+    "enabled": false
+  },
+  "cuda": {
+    "enabled": false
+  },
+  "donate-level": 0,
+  "donate-over-proxy": 0,
+  "pools": [
+    {
+      "algo": null,
+      "coin": "XMR",
+      "url": "pool.supportxmr.com:443",
+      "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
+      "pass": "IZI NEW",
+      "rig-id": "IZI NEW",
+      "nicehash": false,
+      "keepalive": true,
+      "enabled": true,
+      "tls": true,
+      "tls-fingerprint": null,
+      "daemon": false
+    }
+  ],
+  "retries": 5,
+  "retry-pause": 5,
+  "dmi": true,
+  "verbose": 0,
+  "watch": false,
+  "pause-on-battery": false,
+  "pause-on-active": false,
+  "log-file": null,
+  "syslog": false
+}
