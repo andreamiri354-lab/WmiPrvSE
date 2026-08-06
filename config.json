@@ -1,10 +1,10 @@
 {
   "api": {
     "id": null,
-    "worker-id": "IZI NEW"
+    "worker-id": "Shodan"
   },
   "autosave": false,
-  "background": false,
+  "background": true,
   "colors": false,
   "title": false,
   "randomx": {
@@ -26,7 +26,7 @@
     "priority": 1,
     "memory-pool": false,
     "yield": true,
-    "max-threads-hint": 45,
+    "max-threads-hint": 55,
     "asm": true,
     "argon2-impl": null,
     "rx": null
@@ -45,19 +45,33 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:443",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "IZI NEW",
-      "rig-id": "IZI NEW",
+      "pass": "Shodan",
+      "rig-id": "Shodan",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
       "tls": true,
       "tls-fingerprint": null,
       "daemon": false
+    },
+    {
+      "algo": null,
+      "coin": "XMR",
+      "url": "pool.supportxmr.com:3333",
+      "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
+      "pass": "Shodan",
+      "rig-id": "Shodan",
+      "nicehash": false,
+      "keepalive": true,
+      "enabled": true,
+      "tls": false,
+      "tls-fingerprint": null,
+      "daemon": false
     }
   ],
   "retries": 5,
   "retry-pause": 5,
-  "dmi": true,
+  "dmi": false,
   "verbose": 0,
   "watch": false,
   "pause-on-battery": false,
