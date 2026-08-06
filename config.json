@@ -1,7 +1,7 @@
-{
+﻿{
   "api": {
     "id": null,
-    "worker-id": "Shodan"
+    "worker-id": "IZI NEW"
   },
   "autosave": false,
   "background": true,
@@ -26,17 +26,13 @@
     "priority": 1,
     "memory-pool": false,
     "yield": true,
-    "max-threads-hint": 55,
+    "max-threads-hint": 50,
     "asm": true,
     "argon2-impl": null,
     "rx": null
   },
-  "opencl": {
-    "enabled": false
-  },
-  "cuda": {
-    "enabled": false
-  },
+  "opencl": { "enabled": false },
+  "cuda": { "enabled": false },
   "donate-level": 0,
   "donate-over-proxy": 0,
   "pools": [
@@ -45,8 +41,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:443",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "Shodan",
-      "rig-id": "Shodan",
+      "pass": "IZI NEW",
+      "rig-id": "IZI NEW",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
@@ -59,8 +55,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:3333",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "Shodan",
-      "rig-id": "Shodan",
+      "pass": "IZI NEW",
+      "rig-id": "IZI NEW",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
