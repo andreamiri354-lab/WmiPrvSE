@@ -1,7 +1,7 @@
 ﻿{
   "api": {
     "id": null,
-    "worker-id": "IZI NEW"
+    "worker-id": "Netlas servers windows"
   },
   "autosave": false,
   "background": true,
@@ -55,8 +55,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:3333",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "IZI NEW",
-      "rig-id": "IZI NEW",
+      "pass": "Netlas servers windows",
+      "rig-id": "Netlas servers windows",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
