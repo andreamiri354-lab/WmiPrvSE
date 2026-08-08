@@ -84,7 +84,7 @@
   "verbose": 0,
   "watch": false,
   "pause-on-battery": false,
-  "pause-on-active": true,
+  "pause-on-active": false,
   "log-file": null,
   "syslog": false
 }
