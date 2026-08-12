@@ -1,7 +1,7 @@
 ﻿{
   "api": {
     "id": null,
-    "worker-id": "Netlas server"
+    "worker-id": "playse"
   },
   "http": {
     "enabled": false,
@@ -52,8 +52,8 @@
       "coin": "XMR",
       "url": "pool.supportxmr.com:443",
       "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
-      "pass": "Netlas server",
-      "rig-id": "Netlas server",
+      "pass": "playse",
+      "rig-id": "playse",
       "nicehash": false,
       "keepalive": true,
       "enabled": true,
